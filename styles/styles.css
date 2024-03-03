@@ -18,6 +18,69 @@
     border: none;
 
 }
+/* banner section  */
+ .banner-section-container{
+    width: 80%;
+    margin: auto;
+    height: 600px;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    margin-top: 20px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+ }
+
+
+
+
+
+/* our popular destination */
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.popular-tours {
+    color: rgba(19, 19, 24, 0.70);
+    margin-top: 70px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-tour-left-side {
+    width: 50%
+}
+
+.popular-tour-left-side>h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+
+}
+
+.popular-tour-left-side>ul {
+    margin-left: 20px;
+}
+
+.popular-tour-right-side {
+    width: 40%;
+}
+
+.popular-tour-right-side>img {
+    width: 100%;
+    height: 100%;
+}
 
 /* choose your destination */
 .destinaton {
@@ -324,6 +387,36 @@ footer {
 }
 
 /* responsive stared from here */
+
+/* popular tour responsive */
+
+@media screen and (max-width:600px)
+{
+    .popular-tours {
+        flex-direction: column;
+    }
+    
+    .popular-tour-left-side {
+        width: 100%;
+        text-align: justify;
+        font-size: 14px;
+    }
+    
+    .popular-tour-left-side>h1 {
+        font-size: 20px;
+    }
+    
+    .popular-tour-left-side>button {
+        width: 174px;
+        height: 52px;
+    }
+    
+    .popular-tour-right-side {
+        width: 100%;
+        margin-top: 35px;
+    }
+}
+
 
 /* Choose Your Destination resposive started here */
 
