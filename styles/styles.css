@@ -23,6 +23,7 @@
     width: 80%;
     margin: auto;
     height: 600px;
+    background-color: #24245d0d;
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: none;
     background-size: cover;
@@ -36,6 +37,45 @@
     align-items: center;
 
 
+ }
+ .banner-section-heading{
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 40px;
+
+ }
+
+ .banner-section-description{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    width: 60%;
+ }
+
+ .banner-section-form{
+    display: inline-flex;
+    padding: 20px;
+    align-items: flex-start;
+    border-radius: 12px;
+    gap: 20px;
+    background-color: rgba(140, 199, 208, 0.418);
+
+ }
+
+ .banner-section-form>input, select, button{
+    width: 160px;
+    height: 60px;
+    font-size: 16px;
+    padding: 15px;
+    color: rgba(226, 179, 208, 0.473);
+    border: none;
+    border-radius: 15px;
+ }
+
+ .banner-section-form>button{
+    background: #FF5400;
+    color: antiquewhite;
  }
 
 
@@ -387,6 +427,37 @@ footer {
 }
 
 /* responsive stared from here */
+
+
+/* banner responsive start here */
+@media screen and (max-width:600px)
+{
+    .banner-section-container{
+        height: 500px;
+        }
+        .banner-section-heading{
+            font-size: 16px;
+            font-weight: 800;
+            margin-bottom: 8px;
+            margin-top: 28px;
+        }
+        .banner-section-description{
+            font-size: 10px;
+            font-weight: 400;
+            margin-bottom: 8px;
+
+        }
+        .banner-section-form{
+            display: flex;
+            width: 280px;
+            padding: 12px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            margin-top: 0px;
+        }
+}
 
 /* popular tour responsive */
 
